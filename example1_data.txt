@@ -1,0 +1,11 @@
+	3594	10400	4833	5178	3010	13263	8701
+sample1	C	C	A	C	G	A	A
+sample2	C	T	A	A	A	A	G
+sample3	C	T	A	A	G	A	G
+sample4	C	T	A	C	G	G	G
+sample5	C	T	A	A	G	A	G
+sample6	T	C	A	C	G	A	G
+sample7	C	NA	A	C	G	A	G
+sample8	NA	NA	A	C	G	G	G
+sample9	C	C	A	A	G	A	G
+sample10	NA	NA	NA	A	NA	A	G

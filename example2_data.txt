@@ -1,0 +1,11 @@
+location1	location2	id	3594	10400	3010	13263	8701	4833	5178
+AFR	3	sample6	T T	C C	G G	A A	G G	A A	C C
+AFR	3	sample7	C C	0 0	G G	A A	G G	A A	C C
+AFR	4	sample8	0 0	0 0	G G	G G	G G	A A	C C
+EUR	1	sample1	C C	C C	G G	A A	A A	A A	C C
+EUR	1	sample2	C C	T T	A A	A A	G G	A A	A A
+EUR	1	sample3	C C	T T	G G	A A	G G	A A	A A
+EUR	2	sample4	C C	T T	G G	G G	G G	A A	C C
+EUR	2	sample5	C C	T T	G G	A A	G G	A A	A A
+AFR	4	sample9	C C	C C	G G	A A	G G	A A	A A
+AFR	4	sample10	0 0	0 0	0 0	A A	G G	0 0	A A

@@ -1,0 +1,23 @@
+
+ +------------------------------------+
+ |      HaploWinder version 1.11      |
+ |    Copyright 2008 Elina Salmela    |
+ | www.genome.helsinki.fi/haplowinder |
+ +------------------------------------+
+
+
+Analysis started Wed Aug 13 16:25:16 2008.
+
+Analysis results located in example2_results.txt.
+
+Names of input files used in the analysis
+genotypes: example2_data.txt
+haplogroups: example2_tree.txt
+genotype codes: example2_codes.txt
+settings: example2_settings.txt
+
+
+Your genotype data input file contains 10 samples.
+Your haplogroup input file contains 8 haplogroups.
+
+

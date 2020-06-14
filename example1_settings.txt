@@ -1,0 +1,11 @@
+input_genotype_file	example1_data.txt
+input_tree_file	example1_tree.txt
+input_genotype_code_file	example1_codes.txt
+output_results_file	example1_results.txt
+output_log_file	example1_run_log.txt
+extracols	1
+samplename_col	1
+missing_genotype	NA
+code_for_no_match	ERROR
+code_for_several_matches	many
+include_extracols	no

@@ -1,0 +1,11 @@
+input_genotype_file	example2_data.txt
+input_tree_file	example2_tree.txt
+input_genotype_code_file	example2_codes.txt
+output_results_file	example2_results.txt
+output_log_file	example2_run_log.txt
+extracols	3
+samplename_col	3
+missing_genotype	0 0
+code_for_no_match	conflict
+code_for_several_matches	many_hgs
+include_extracols	yes
