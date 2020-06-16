@@ -171,22 +171,16 @@ The last five columns contain the numbers of markers with missing, inferred and 
 
 There are two sets of example files. They contain the four input files (\*_settings, \*_data, \*_codes and \*_tree for Settings, Genotype, Genotype code and Haplogroup files, respectively), the two resulting output files (\*_result and \*_run_log), and two extra files: a jpeg image showing the tree that is coded into the Haplogroup file, and an Excel file containing comments to some of the input and output files.
 
-[example1_settings.txt](example1_settings.txt)
-[example1_data.txt](example1_data.txt)
-[example1_codes.txt](example1_codes.txt)
-[example1_tree.txt](example1_tree.txt)
-[example1_result.txt](example1_result.txt)
-[example1_run_log.txt](example1_run_log.txt)
-[example1_comments.xls](example1_comments.xls)
-[example1_tree.jpg](example1_tree.jpg)
-[example2_settings.txt](example2_settings.txt)
-[example2_data.txt](example2_data.txt)
-[example2_codes.txt](example2_codes.txt)
-[example2_tree.txt](example2_tree.txt)
-[example2_result.txt](example2_result.txt)
-[example2_run_log.txt](example2_run_log.txt)
-[example2_comments.xls](example2_comments.xls)
-[example2_tree.jpg](example2_tree.jpg)
+| | |
+|-|-|
+|[example1_settings.txt](example1_settings.txt)|[example2_settings.txt](example2_settings.txt)|
+|[example1_data.txt](example1_data.txt)|[example2_data.txt](example2_data.txt)|
+|[example1_codes.txt](example1_codes.txt)|[example2_codes.txt](example2_codes.txt)|
+|[example1_tree.txt](example1_tree.txt)|[example2_tree.txt](example2_tree.txt)|
+|[example1_result.txt](example1_result.txt)|[example2_result.txt](example2_result.txt)|
+|[example1_run_log.txt](example1_run_log.txt)|[example2_run_log.txt](example2_run_log.txt)|
+|[example1_comments.xls](example1_comments.xls)|[example2_comments.xls](example2_comments.xls)|
+|[example1_tree.jpg](example1_tree.jpg)|[example2_tree.jpg](example2_tree.jpg)|
 
 ## 3. Other stuff
 
