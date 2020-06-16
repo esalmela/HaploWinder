@@ -114,9 +114,7 @@ All input files must be (and the Result file will be) tab separated text files. 
 **Settings file**
 No header row. One row per parameter. Each row must have two elements separated by a tab: a parameter name and its value. Empty rows and rows with no tab will produce a warning. Row order is arbitrary, but all of the following parameter rows must appear:
 
-*File names*
-
-|File name | Description|
+|Parameter name | Description|
 |-|-|
 |    *input_genotype_file*	|	name of the Genotype file|
 |    *input_tree_file*		|	name of the Haplogroup file |
@@ -171,7 +169,7 @@ The last five columns contain the numbers of markers with missing, inferred and 
 
 There are two sets of example files. They contain the four input files (\*_settings, \*_data, \*_codes and \*_tree for Settings, Genotype, Genotype code and Haplogroup files, respectively), the two resulting output files (\*_result and \*_run_log), and two extra files: a jpeg image showing the tree that is coded into the Haplogroup file, and an Excel file containing comments to some of the input and output files.
 
-| | |
+|Example 1 | Example 2 |
 |-|-|
 |[example1_settings.txt](example1_settings.txt)|[example2_settings.txt](example2_settings.txt)|
 |[example1_data.txt](example1_data.txt)|[example2_data.txt](example2_data.txt)|
