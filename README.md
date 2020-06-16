@@ -82,7 +82,7 @@ If use the HaploWinder program in any published work, please cite it as follows:
     Population structure in contemporary Sweden – A Y-chromosomal and mitochondrial DNA analysis.
     Annals of Human Genetics 2009, 73: 61-73.
 
-  The paper deals mostly with other stuff but introduces the program briefly.<br><br>
+  The [paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.2008.00487.x) deals mostly with other stuff but introduces the program briefly.<br><br>
 
 
 
