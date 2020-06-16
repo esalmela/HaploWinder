@@ -168,7 +168,7 @@ The last five columns contain the numbers of markers with missing, inferred and 
 
 There are two sets of example files. They contain the four input files (*_settings, *_data, *_codes and *_tree for Settings, Genotype, Genotype code and Haplogroup files, respectively), the two resulting output files (*_result and *_run_log), and two extra files: a jpeg image showing the tree that is coded into the Haplogroup file, and an Excel file containing comments to some of the input and output files.
 
-example1_settings.txt
+[example1_settings.txt](example1_settings.txt)
 example1_data.txt
 example1_codes.txt
 example1_tree.txt
