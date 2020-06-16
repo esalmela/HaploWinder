@@ -197,8 +197,8 @@ There are two sets of example files. They contain the four input files (\*_setti
 |[example1_run_log.txt](example1_run_log.txt)|[example2_run_log.txt](example2_run_log.txt)|
 |[example1_comments.xls](example1_comments.xls)|[example2_comments.xls](example2_comments.xls)|
 |[example1_tree.jpg](example1_tree.jpg)|[example2_tree.jpg](example2_tree.jpg)|
-<br><br>
 
+<br><br>
 ## 3. Other stuff
 
 ### 3.1. Pre-Github version history
