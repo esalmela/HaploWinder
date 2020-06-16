@@ -38,9 +38,9 @@ Note: HaploWinder does **_not_** perform haplotype inference of unphased diploid
 -	infers and fills in missing genotypes when possible, i.e., when these are unambiguous based on the successfully genotyped markers
 -	keeps the inferred genotypes distinguishable from the original observed ones
 -	checks the genotype input to avoid mismatches due to data input errors
--	tries to produce sensible and detailed error messages in plain English
+-	tries to produce sensible and detailed error messages in plain English<br><br>
 
-<br>### 1.2. How to install and run
+### 1.2. How to install and run
 
 <br>**A summary in layman terms**
 
@@ -60,9 +60,9 @@ Save the program somewhere in a text format but with a name ending '.pl'. Save y
 
     perl haplowinder.pl Settings.txt
 
-where `haplowinder.pl` is the name you gave to the program file and `Settings.txt` the name you gave to the Settings file, (and hitting enter). A successful run ends in a line beginning "Analysis ready", and giving the names of the Result and Log files.
+where `haplowinder.pl` is the name you gave to the program file and `Settings.txt` the name you gave to the Settings file, (and hitting enter). A successful run ends in a line beginning "Analysis ready", and giving the names of the Result and Log files.<br><br>
 
-<br>### 1.3. Technical stuff
+### 1.3. Technical stuff
 
 <br>**Disclaimer**<br>
 <br>
@@ -181,8 +181,8 @@ All the genotype codes that (can) appear in the Genotype data and Haplogroup fil
 The Result file contains first the non-genotype column(s): either all of them or only the sample name column, depending on the value of the parameter *include_extracols* in the Settings file.
 
 The subsequent columns contain the genotypes of each sample, including inferred genotypes in lowercase letters and missing genotypes denoted by a user-defined code. The order of markers is the same as in the Haplogroup file, and the order of the samples is the same as in the Genotype file.
-The last five columns contain the numbers of markers with missing, inferred and originally observed genotypes, the number of haplogroups that are concordant with the observed genotypes, and the name of the concordant haplogroup if there is only one (if there is less or more than one, the corresponding user-defined code will be printed).
-<br>
+The last five columns contain the numbers of markers with missing, inferred and originally observed genotypes, the number of haplogroups that are concordant with the observed genotypes, and the name of the concordant haplogroup if there is only one (if there is less or more than one, the corresponding user-defined code will be printed).<br><br>
+
 ### 2.3. Example files
 
 There are two sets of example files. They contain the four input files (\*_settings, \*_data, \*_codes and \*_tree for Settings, Genotype, Genotype code and Haplogroup files, respectively), the two resulting output files (\*_result and \*_run_log), and two extra files: a jpeg image showing the tree that is coded into the Haplogroup file, and an Excel file containing comments to some of the input and output files.
@@ -196,8 +196,8 @@ There are two sets of example files. They contain the four input files (\*_setti
 |[example1_result.txt](example1_result.txt)|[example2_result.txt](example2_result.txt)|
 |[example1_run_log.txt](example1_run_log.txt)|[example2_run_log.txt](example2_run_log.txt)|
 |[example1_comments.xls](example1_comments.xls)|[example2_comments.xls](example2_comments.xls)|
-|[example1_tree.jpg](example1_tree.jpg)|[example2_tree.jpg](example2_tree.jpg)|
-<br>
+|[example1_tree.jpg](example1_tree.jpg)|[example2_tree.jpg](example2_tree.jpg)|<br><br>
+
 ## 3. Other stuff
 
 ### 3.1. Pre-Github version history
@@ -209,12 +209,12 @@ Identical to version 1.1 except for some copyright-related notes.
 
 <br>**Earlier versions**<br>
 <br>
-HaploWinder v.1.1 (completed March 1st, 2007)
-<br>
+HaploWinder v.1.1 (completed March 1st, 2007)<br><br>
+
 ### 3.2. Known bugs & issues
 
-There are no known bugs.
-<br>
+There are no known bugs.<br><br>
+
 ### 3.3. Troubleshooting
 
 HaploWinder tries to produce sensible and detailed error messages in plain and intelligible English. However, it is also possible that you get a strange-sounding one, but then it probably does not come from HaploWinder itself but from the operating system behind, and you can ask your local computer wizard how to fix the problem, even if they do not know that much about haplogroups.
@@ -232,7 +232,7 @@ Problem: the program was rerun while the Result file from the previous round (wi
 <br>
 ## Appendix 1
 
-**Dealing with discrepant marker sets: When markers are missing from either Genotype or Haplogroup files**<br>
+<br>**Dealing with discrepant marker sets: When markers are missing from either Genotype or Haplogroup files**<br>
 <br>
 Usually, the Genotype data and Haplogroup files will have the same set of markers, and the program will print a warning if they do not. It is possible, however, to run the program despite the warning, if the discrepancy between the two marker sets is intentional:
 
