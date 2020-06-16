@@ -182,13 +182,15 @@ There are two sets of example files. They contain the four input files (\*_setti
 
 ## 3. Other stuff
 
-### 3.1. Version history
+### 3.1. Pre-Github version history
 
-**Current version**
+**Current version**<br>
+<br>
 HaploWinder v.1.11 (released September 2008)
 Identical to version 1.1 except for some copyright-related notes.
 
-**Earlier versions**
+**Earlier versions**<br>
+<br>
 HaploWinder v.1.1 (completed March 1st, 2007)
 
 ### 3.2. Known bugs & issues
@@ -199,7 +201,8 @@ There are no known bugs.
 
 HaploWinder tries to produce sensible and detailed error messages in plain and intelligible English. However, it is also possible that you get a strange-sounding one, but then it probably does not come from HaploWinder itself but from the operating system behind, and you can ask your local computer wizard how to fix the problem, even if they do not know that much about haplogroups.
 
-**Input file format problems**
+**Input file format problems**<br>
+<br>
 Some text editors tend to add invisible characters to the start and/or end of files, and such characters could confuse the data import into HaploWinder. Another possible source of problems is the end-of-row character: a newline (\n) is preferable, but HaploWinder should also tolerate a Windows-style one (with \r). If you experience strange problems with input file formats, try asking your local computer wizard.
 
 **Obscure error messages encountered so far**
@@ -210,8 +213,8 @@ Problem: the program was rerun while the Result file from the previous round (wi
 
 ## Appendix 1
 
-**Dealing with discrepant marker sets: When markers are missing from either Genotype or Haplogroup files**
-
+**Dealing with discrepant marker sets: When markers are missing from either Genotype or Haplogroup files**<br>
+<br>
 Usually, the Genotype data and Haplogroup files will have the same set of markers, and the program will print a warning if they do not. It is possible, however, to run the program despite the warning, if the discrepancy between the two marker sets is intentional:
 
 A marker that appears in the Haplogroup file can be missing from the Genotype data file, for example if it has not been genotyped yet. Such markers will be treated in the analysis as they had a missing genotype reading from all the samples, and they will be included in the Result file.
