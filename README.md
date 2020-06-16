@@ -7,7 +7,7 @@ HaploWinder is a perl script that performs uniparental haplogrouping of genotype
  **[1. General information](#1.)**<br>
 	[1.1. What is HaploWinder?](#1.1)<br>
 	[1.2. How to install and run](#1.2)<br>
-	[1.3. Technical stuff (Disclaimer, license, citing)](#1.3)<br>
+	[1.3. Technical stuff (Disclaimer, license, how to cite)](#1.3)<br>
 	
 **[2. Input and output files](#2.)**<br>
 	[2.1. In general](#2.1)<br>
@@ -72,9 +72,11 @@ The HaploWinder program is provided without any warranty. I have tried to write 
 <br>
 The HaploWinder program is distributed under a simple all-permissive license that allows you to copy and distribute it, with or without modification, in any medium without royalty provided the copyright notice and the notice of the license are preserved.
 
-<br>**Citing**<br>
+<br>**How to cite HaploWinder**<br>
 <br>
-If you find the HaploWinder program useful enough to use it in any published work, please cite this web page or otherwise acknowledge the use of the program. If you wish to cite a paper, use 
+If use the HaploWinder program in any published work, please cite it as follows:
+
+	HaploWinder v. 1.11 (Lappalainen et al. 2009; https://github.com/esalmela/HaploWinder/)
 
     Lappalainen T, Hannelius U, Salmela E, von Döbeln U, Lindgren CM, Huoponen K, Savontaus ML, Kere J, Lahermo P.
     Population structure in contemporary Sweden – A Y-chromosomal and mitochondrial DNA analysis.
