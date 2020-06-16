@@ -116,6 +116,7 @@ No header row. One row per parameter. Each row must have two elements separated 
 
 *File names*
 
+| | |
 |-|-|
 |    input_genotype_file	|	name of the Genotype file|
 |    input_tree_file		|	name of the Haplogroup file |
