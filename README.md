@@ -41,7 +41,7 @@ Note: HaploWinder does **_not_** perform haplotype inference of unphased diploid
 -	tries to produce sensible and detailed error messages in plain English
 
 ### 1.2. How to install and run
-
+<br>
 **A summary in layman terms**
 
 1. Get perl (ask your system administrator).
