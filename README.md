@@ -98,7 +98,7 @@ This input file contains the actual genotypes of your samples. There is some fle
 This input file contains the valid genotype codes that the input Genotype file may contain, plus the codes to be used for each in the Result file. HaploWinder checks that all the genotypes in the Genotype file match to one of these codes, to ensure that the non-matches found in the subsequent comparison of sample genotypes to haplogroup definitions are real and not only caused by errors in interpreting the Genotype file. This file can also be used to define how the genotypes will be presented in the Result file. See section 2.2 for format details, and section 2.3 for example files. 
 
 **Haplogroup file**
-This input file contains the haplogroup information, i.e., it lists which set of genotypes belongs to which haplogroup. Constructing this file from a haplogroup tree ([example](example1_tree.jpeg)) can be a bit tedious, but needs to be done only once per a given set of markers. The correctness of this file is essential for the correct haplogroup inference, and there is no built-in inspection functionality in HaploWinder, so please check your Haplogroup file carefully. An error in this file could, for example, manifest itself in a higher number of samples matching to no haplogroup; in the case of a rare haplogroup such samples might not be numerous enough to raise the user's suspicion, but the results would nevertheless be wrong. So do check the Haplogroup file once more... See section 2.2 for format details, and section 2.3 for example files. 
+This input file contains the haplogroup information, i.e., it lists which set of genotypes belongs to which haplogroup. Constructing this file from a haplogroup tree ([example](example1_tree.jpg)) can be a bit tedious, but needs to be done only once per a given set of markers. The correctness of this file is essential for the correct haplogroup inference, and there is no built-in inspection functionality in HaploWinder, so please check your Haplogroup file carefully. An error in this file could, for example, manifest itself in a higher number of samples matching to no haplogroup; in the case of a rare haplogroup such samples might not be numerous enough to raise the user's suspicion, but the results would nevertheless be wrong. So do check the Haplogroup file once more... See section 2.2 for format details, and section 2.3 for example files. 
 
 **Result file**
 This output file will contain the results of the HaploWinder run: the genotypes of each sample (including inferred genotypes), the numbers of markers with missing, inferred and originally observed genotypes, the number of haplogroups that are concordant with the observed genotypes, and the name of the concordant haplogroup if there is only one. See section 2.2 for format details, and section 2.3 for example files. 
@@ -178,7 +178,7 @@ example1_tree.txt
 example1_result.txt
 example1_run_log.txt
 example1_comments.xls
-example1_tree.jpeg
+example1_tree.jpg
 example2_settings.txt
 example2_data.txt
 example2_codes.txt
@@ -186,7 +186,7 @@ example2_tree.txt
 example2_result.txt
 example2_run_log.txt
 example2_comments.xls
-example2_tree.jpeg
+example2_tree.jpg
 
 ## 3. Other stuff
 
