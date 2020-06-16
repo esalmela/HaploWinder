@@ -116,13 +116,13 @@ No header row. One row per parameter. Each row must have two elements separated 
 
 *File names*
 
-| | |
+|File name | Description|
 |-|-|
-|    input_genotype_file	|	name of the Genotype file|
-|    input_tree_file		|	name of the Haplogroup file |
-|    input_genotype_code_file	|name of the Genotype code file |
-|    output_results_file	|	name of the Result file |
-|    output_log_file		|	name of the Log file|
+|    *input_genotype_file*	|	name of the Genotype file|
+|    *input_tree_file*		|	name of the Haplogroup file |
+|    *input_genotype_code_file*	|	name of the Genotype code file |
+|    *output_results_file*	|	name of the Result file |
+|    *output_log_file*		|	name of the Log file|
 
 Remember to include the file name ending ".txt". It should be possible to include also a path, if the file is (or should be, in the case of output files) located in another directory, but this has not really been tested.
 
