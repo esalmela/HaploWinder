@@ -54,7 +54,7 @@ Note: HaploWinder does **_not_** perform haplotype inference of unphased diploid
 
 If you run HaploWinder repeatedly, you only need to do steps 1 and 2 once, and in step 3 the files can usually be modified from existing ones - just provide the new Genotype file. HaploWinder is also fast: step 5 should not take more than a few seconds.
 
-**In a bit more detail**
+**In a bit more detail**<br>
 Save the program somewhere in a text format but with a name ending '.pl'. Save your input files (see section 2.1) to the same location, in a text format with file name ending '.txt'. Run the program by (going to that location and) writing onto the command line
 
     perl haplowinder.pl Settings.txt
@@ -63,13 +63,13 @@ where `haplowinder.pl` is the name you gave to the program file and `Settings.tx
 
 ### 1.3. Technical stuff
 
-**Disclaimer**
+**Disclaimer**<br>
 The HaploWinder program is provided without any warranty. I have tried to write it correctly and test it extensively, but take no responsibility for any incorrect results (or any other damage) that it might produce.
 
-**License**
+**License**<br>
 The HaploWinder program is distributed under a simple all-permissive license that allows you to copy and distribute it, with or without modification, in any medium without royalty provided the copyright notice and the notice of the license are preserved.
 
-**Citing**
+**Citing**<br>
 If you find the HaploWinder program useful enough to use it in any published work, please cite this web page or otherwise acknowledge the use of the program. If you wish to cite a paper, use 
 
     Lappalainen T, Hannelius U, Salmela E, von Döbeln U, Lindgren CM, Huoponen K, Savontaus ML, Kere J, Lahermo P.
@@ -78,7 +78,7 @@ If you find the HaploWinder program useful enough to use it in any published wor
 
   The paper deals mostly with other stuff but introduces the program briefly.
 
-**Email**
+**Email**<br>
 Send any questions, comments, etc. regarding HaploWinder to haplowinder AT gmail DOT com. Please include the word "HaploWinder" in your message to bypass the spam protection (case insensitive).
 
 ## 2. Input and output files
@@ -88,31 +88,31 @@ Send any questions, comments, etc. regarding HaploWinder to haplowinder AT gmail
 The program takes four input files and produces two output files. Don't be scared of the number: two of the input files you can most probably copy straight from the examples or use with minor modifications, one may come directly from your genotyping platform or database, and only one, the Haplogroup file, you will have to construct yourself. Furthermore, once you have constructed the files, you can use them repeatedly with different input Genotype data files, with minor modifications to the Settings file.
 The name of the Settings file is given on the command line, and the Settings file contains the names of the other files.
 
-**Settings file**
+**Settings file**<br>
 This input file contains the parameters for the run: filenames, etc. Give the name of this file on the command line when running HaploWinder (remember to give the file name extension (.txt)). See section 2.2 for format details, and section 2.3 for example files.
 
-**Genotype file**
+**Genotype file**<br>
 This input file contains the actual genotypes of your samples. There is some flexibility in the format, in order to accept a format produced by your local genotyping platform or database either as such or with as small modifications as possible. Sample rows, marker columns; see section 2.2 for format details, and section 2.3 for example files. 
 
-**Genotype code file**
+**Genotype code file**<br>
 This input file contains the valid genotype codes that the input Genotype file may contain, plus the codes to be used for each in the Result file. HaploWinder checks that all the genotypes in the Genotype file match to one of these codes, to ensure that the non-matches found in the subsequent comparison of sample genotypes to haplogroup definitions are real and not only caused by errors in interpreting the Genotype file. This file can also be used to define how the genotypes will be presented in the Result file. See section 2.2 for format details, and section 2.3 for example files. 
 
-**Haplogroup file**
+**Haplogroup file**<br>
 This input file contains the haplogroup information, i.e., it lists which set of genotypes belongs to which haplogroup. Constructing this file from a haplogroup tree ([example](example1_tree.jpg)) can be a bit tedious, but needs to be done only once per a given set of markers. The correctness of this file is essential for the correct haplogroup inference, and there is no built-in inspection functionality in HaploWinder, so please check your Haplogroup file carefully. An error in this file could, for example, manifest itself in a higher number of samples matching to no haplogroup; in the case of a rare haplogroup such samples might not be numerous enough to raise the user's suspicion, but the results would nevertheless be wrong. So do check the Haplogroup file once more... See section 2.2 for format details, and section 2.3 for example files. 
 
-**Result file**
+**Result file**<br>
 This output file will contain the results of the HaploWinder run: the genotypes of each sample (including inferred genotypes), the numbers of markers with missing, inferred and originally observed genotypes, the number of haplogroups that are concordant with the observed genotypes, and the name of the concordant haplogroup if there is only one. See section 2.2 for format details, and section 2.3 for example files. 
 
-**Log file**
+**Log file**<br>
 This output file will contain information of the success of the HaploWinder run: error messages etc. Although most of the error messages and notifications will also appear on the screen during the run, it is advisable to read the Log file carefully before proceeding with the analysis of the Result file. The Log file is also meant to serve in analysis documentation. Note that if you run HaploWinder repeatedly with the same Log file name, the new Log file will not replace the old one but be appended to the end of it. See section 2.2 for format details, and section 2.3 for example files. 
 
 ### 2.2. File format specifications
 
-**In general**
+**In general**<br>
 All input files must be (and the Result file will be) tab separated text files. In theory, any text editor should be suitable for constructing them (but see Troubleshooting section 3.3).
 
-**Settings file**
-No header row. One row per parameter. Each row must have two elements separated by a tab: a parameter name and its value. Empty rows and rows with no tab will produce a warning. Row order is arbitrary, but all of the following parameter rows must appear:
+**Settings file**<br>
+No header row. One row per parameter. Each row must have two elements separated by a tab: a parameter name and its value. Empty rows and rows with no tab will produce a warning. Row order is arbitrary, but all of the following 11 parameter rows must appear:
 
 |Parameter name | Description|
 |-|-|
@@ -124,32 +124,32 @@ No header row. One row per parameter. Each row must have two elements separated 
 
 Remember to include the file name ending ".txt". It should be possible to include also a path, if the file is (or should be, in the case of output files) located in another directory, but this has not really been tested.
 
-*extracols*
+*extracols*<br>
 Number of columns in the Genotype file that precede the actual marker columns containing the genotypes of the samples. The minimum value for this parameter is 1, because the file is supposed to contain at least the sample names.
 
-*samplename_col*
+*samplename_col*<br>
 Number of the column that contains the sample names in the Genotype data input file. If you set the parameter *include_extracols* (see below) to "no", this column is the only non-genotype data column that will be included in the Result file. If the parameter *include_extracols* is set to "yes", this parameter will have no effect (except that some error messages may contain sample names, and they will display the entries from this column), but it needs to be included in the Settings file anyway and will produce an error if missing.
 
-*include_extracols*	
+*include_extracols*<br>	
 Determines whether the Result file will contain all genotype-preceding columns of the Genotype file (yes) or only the sample name column (no).
 
-*missing_genotype*
+*missing_genotype*<br>
 Code used for missing genotypes in the Genotype file in its original form (i.e., before the conversions possibly defined in the Genotype code file).
 
-*code_for_several_matches*
+*code_for_several_matches*<br>
 Code to be used in the Result file for genotypes that match more than one haplogroup.
 
-*code_for_no_match*
+*code_for_no_match*<br>
 Code to be used in the Result file for genotypes that do not match any haplogroup.
 
 It is crucial to spell the parameter names exactly correctly: in case of a typo, the program will print an error message saying it did not find the corresponding parameter value or file name.
 
-**Genotype file**
+**Genotype file**<br>
 One header row, then one row per sample. The file can have more than one column before the genotype columns; indicate their number in Settings file in the parameter *extracols*. One of these non-genotype columns should contain the sample names; indicate its number in Settings file in the *parameter samplename_col*. The header-row entries of these non-genotype columns are arbitrary, but their total number must be equal to *extracols*.
 
 Each genotype column contains the genotype data from one marker. The header row must contain the name of the marker, and these names must be unique and match those in the Haplogroup file (see Appendix 1 for exceptions). For the genotypes, any alphabetic coding should work, as long as the individuals' genotypes do not contain the tab character; however, upper case letters are recommended. (Even a numeric coding might work, but this has not been tested.)
 
-**Haplogroup file**
+**Haplogroup file**<br>
 One header row, then one row per haplogroup. The first column contains the haplogroup names. Other columns contain the corresponding genotype from each marker. The genotype coding must be the same as in the original genotypes in the Genotype file, i.e., before the possible recoding defined in the Genotype code file. The header row must contain the names of the markers, preceded by an arbitrary header for the haplogroup name column.
 The order of columns need not be the same as for the Genotype data file, but the marker set should of course be the same (see Appendix 1 for exceptions). If there are discrepancies in the marker names between the two files, the program will print a warning. Markers in the Result file will appear in the same order as in the Haplogroup file.
 
