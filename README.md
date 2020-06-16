@@ -20,7 +20,8 @@ HaploWinder is a perl script that performs uniparental haplogrouping of genotype
 	3.3. Troubleshooting<br>
 	
 **Appendix 1.** Dealing with discrepant marker sets
-
+<br>
+<br>
 ## 1. General information
 
 ### 1.1. What is HaploWinder?
