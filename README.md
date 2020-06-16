@@ -5,26 +5,26 @@ HaploWinder is a perl script that performs uniparental haplogrouping of genotype
 ## README contents
 
  **1. [General information](#1.)**<br>
-	1.1. What is HaploWinder?<br>
-	1.2. How to install and run<br>
-	1.3. Technical stuff (Disclaimer, license, citing, email)<br>
+	[1.1. What is HaploWinder?](#1.1)<br>
+	[1.2. How to install and run](#1.2)<br>
+	[1.3. Technical stuff (Disclaimer, license, citing, email)](#1.3)<br>
 	
-**2. Input and output files**<br>
-	2.1. In general<br>
-	2.2. File format specifications<br>
-	2.3. Example files<br>
+**2. [Input and output files](#2.)**<br>
+	[2.1. In general](#2.1)<br>
+	[2.2. File format specifications](#2.2)<br>
+	[2.3. Example files](#2.3)<br>
 	
-**3. Other stuff**<br>
-	3.1. Version history<br>
-	3.2. Known bugs & issues<br>
-	3.3. Troubleshooting<br>
+**3. [Other stuff](#3.)**<br>
+	[3.1. Version history](#3.1)<br>
+	[3.2. Known bugs & issues](#3.2)<br>
+	[3.3. Troubleshooting](#3.3)<br>
 	
-**Appendix 1.** Dealing with discrepant marker sets
+**[Appendix 1.](#app)** Dealing with discrepant marker sets
 <br>
 <br>
 ## <a name="1."></a>1. General information
 
-### 1.1. What is HaploWinder?
+### <a name="1.2"></a>1.1. What is HaploWinder?
 
 HaploWinder is a small program written in perl that performs haplogrouping of samples according to a user-given hierarchical tree. It has been designed and used for assigning haplogroups to samples genotyped with Y-chromosomal and mitochondrial DNA markers.
 Note: HaploWinder does **_not_** perform haplotype inference of unphased diploid genotypes.
@@ -40,7 +40,7 @@ Note: HaploWinder does **_not_** perform haplotype inference of unphased diploid
 -	checks the genotype input to avoid mismatches due to data input errors
 -	tries to produce sensible and detailed error messages in plain English<br><br>
 
-### 1.2. How to install and run
+### <a name="1.2"></a>1.2. How to install and run
 
 <br>**A summary in layman terms**
 
@@ -62,7 +62,7 @@ Save the program somewhere in a text format but with a name ending '.pl'. Save y
 
 where `haplowinder.pl` is the name you gave to the program file and `Settings.txt` the name you gave to the Settings file, (and hitting enter). A successful run ends in a line beginning "Analysis ready", and giving the names of the Result and Log files.<br><br>
 
-### 1.3. Technical stuff
+### <a name="1.3"></a>1.3. Technical stuff
 
 <br>**Disclaimer**<br>
 <br>
@@ -87,9 +87,9 @@ If you find the HaploWinder program useful enough to use it in any published wor
 Send any questions, comments, etc. regarding HaploWinder to haplowinder AT gmail DOT com. Please include the word "HaploWinder" in your message to bypass the spam protection (case insensitive).
 <br>
 <br>
-## 2. Input and output files
+## <a name="2."></a>2. Input and output files
 
-### 2.1. In general
+### <a name="2.1"></a>2.1. In general
 
 The program takes four input files and produces two output files. Don't be scared of the number: two of the input files you can most probably copy straight from the examples or use with minor modifications, one may come directly from your genotyping platform or database, and only one, the Haplogroup file, you will have to construct yourself. Furthermore, once you have constructed the files, you can use them repeatedly with different input Genotype data files, with minor modifications to the Settings file.
 The name of the Settings file is given on the command line, and the Settings file contains the names of the other files.
@@ -118,7 +118,7 @@ This output file will contain the results of the HaploWinder run: the genotypes 
 <br>
 This output file will contain information of the success of the HaploWinder run: error messages etc. Although most of the error messages and notifications will also appear on the screen during the run, it is advisable to read the Log file carefully before proceeding with the analysis of the Result file. The Log file is also meant to serve in analysis documentation. Note that if you run HaploWinder repeatedly with the same Log file name, the new Log file will not replace the old one but be appended to the end of it. See section 2.2 for format details, and section 2.3 for example files.<br><br>
 
-### 2.2. File format specifications
+### <a name="2.2"></a>2.2. File format specifications
 
 <br>**In general**<br>
 <br>
@@ -183,7 +183,7 @@ The Result file contains first the non-genotype column(s): either all of them or
 The subsequent columns contain the genotypes of each sample, including inferred genotypes in lowercase letters and missing genotypes denoted by a user-defined code. The order of markers is the same as in the Haplogroup file, and the order of the samples is the same as in the Genotype file.
 The last five columns contain the numbers of markers with missing, inferred and originally observed genotypes, the number of haplogroups that are concordant with the observed genotypes, and the name of the concordant haplogroup if there is only one (if there is less or more than one, the corresponding user-defined code will be printed).<br><br>
 
-### 2.3. Example files
+### <a name="2.3"></a>2.3. Example files
 
 There are two sets of example files. They contain the four input files (\*_settings, \*_data, \*_codes and \*_tree for Settings, Genotype, Genotype code and Haplogroup files, respectively), the two resulting output files (\*_result and \*_run_log), and two extra files: a jpg image showing the tree that is coded into the Haplogroup file, and an Excel file containing comments to some of the input and output files.
 
@@ -199,9 +199,9 @@ There are two sets of example files. They contain the four input files (\*_setti
 |[example1_tree.jpg](example1_tree.jpg)|[example2_tree.jpg](example2_tree.jpg)|
 
 <br><br>
-## 3. Other stuff
+## <a name="3."></a>3. Other stuff
 
-### 3.1. Pre-Github version history
+### <a name="3.1"></a>3.1. Pre-Github version history
 
 <br>**Current version**<br>
 <br>
@@ -212,11 +212,11 @@ Identical to version 1.1 except for some copyright-related notes.
 <br>
 HaploWinder v.1.1 (completed March 1st, 2007)<br><br>
 
-### 3.2. Known bugs & issues
+### <a name="1."></a>3.2. Known bugs & issues
 
 There are no known bugs.<br><br>
 
-### 3.3. Troubleshooting
+### <a name="1."></a>3.3. Troubleshooting
 
 HaploWinder tries to produce sensible and detailed error messages in plain and intelligible English. However, it is also possible that you get a strange-sounding one, but then it probably does not come from HaploWinder itself but from the operating system behind, and you can ask your local computer wizard how to fix the problem, even if they do not know that much about haplogroups.
 
@@ -231,7 +231,7 @@ Some text editors tend to add invisible characters to the start and/or end of fi
 Problem: the program was rerun while the Result file from the previous round (with the same name) was open. Solution: close the file, then rerun.
 <br>
 <br>
-## Appendix 1
+## <a name="app"></a>Appendix 1
 
 <br>**Dealing with discrepant marker sets: When markers are missing from either Genotype or Haplogroup files**<br>
 <br>
