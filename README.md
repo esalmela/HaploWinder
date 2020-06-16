@@ -116,7 +116,7 @@ This output file will contain the results of the HaploWinder run: the genotypes 
 
 <br>**Log file**<br>
 <br>
-This output file will contain information of the success of the HaploWinder run: error messages etc. Although most of the error messages and notifications will also appear on the screen during the run, it is advisable to read the Log file carefully before proceeding with the analysis of the Result file. The Log file is also meant to serve in analysis documentation. Note that if you run HaploWinder repeatedly with the same Log file name, the new Log file will not replace the old one but be appended to the end of it. See section 2.2 for format details, and section 2.3 for example files. 
+This output file will contain information of the success of the HaploWinder run: error messages etc. Although most of the error messages and notifications will also appear on the screen during the run, it is advisable to read the Log file carefully before proceeding with the analysis of the Result file. The Log file is also meant to serve in analysis documentation. Note that if you run HaploWinder repeatedly with the same Log file name, the new Log file will not replace the old one but be appended to the end of it. See section 2.2 for format details, and section 2.3 for example files.<br><br>
 
 ### 2.2. File format specifications
 
