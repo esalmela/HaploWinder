@@ -15,7 +15,7 @@ HaploWinder is a perl script that performs uniparental haplogrouping of genotype
 	[2.3. Example files](#2.3)<br>
 	
 **[3. Other stuff](#3.)**<br>
-	[3.1. Version history](#3.1)<br>
+	[3.1. Pre-GitHub version history](#3.1)<br>
 	[3.2. Known bugs & issues](#3.2)<br>
 	[3.3. Troubleshooting](#3.3)<br>
 	
@@ -212,11 +212,11 @@ Identical to version 1.1 except for some copyright-related notes.
 <br>
 HaploWinder v.1.1 (completed March 1st, 2007)<br><br>
 
-### <a name="1."></a>3.2. Known bugs & issues
+### <a name="3.2"></a>3.2. Known bugs & issues
 
 There are no known bugs.<br><br>
 
-### <a name="1."></a>3.3. Troubleshooting
+### <a name="3.3"></a>3.3. Troubleshooting
 
 HaploWinder tries to produce sensible and detailed error messages in plain and intelligible English. However, it is also possible that you get a strange-sounding one, but then it probably does not come from HaploWinder itself but from the operating system behind, and you can ask your local computer wizard how to fix the problem, even if they do not know that much about haplogroups.
 
