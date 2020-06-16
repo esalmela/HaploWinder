@@ -1,6 +1,6 @@
 ## HaploWinder
 
-HaploWinder is a perl script that performs uniparental haplogrouping of genotyped samples according to a user-given hierarchical tree.
+[HaploWinder](HaploWinder_v111.pl) is a perl script that performs uniparental haplogrouping of genotyped samples according to a user-given hierarchical tree.
 
 ## README contents
 
@@ -26,7 +26,7 @@ HaploWinder is a perl script that performs uniparental haplogrouping of genotype
 
 ### <a name="1.1"></a>1.1. What is HaploWinder?
 
-HaploWinder is a small program written in perl that performs haplogrouping of samples according to a user-given hierarchical tree. It has been designed and used for assigning haplogroups to samples genotyped with Y-chromosomal and mitochondrial DNA markers.
+[HaploWinder](HaploWinder_v111.pl) is a small program written in perl that performs haplogrouping of samples according to a user-given hierarchical tree. It has been designed and used for assigning haplogroups to samples genotyped with Y-chromosomal and mitochondrial DNA markers.
 Note: HaploWinder does **_not_** perform haplotype inference of unphased diploid genotypes.
 
 **Advantages of HaploWinder:**
@@ -45,7 +45,7 @@ Note: HaploWinder does **_not_** perform haplotype inference of unphased diploid
 <br>**A summary in layman terms**
 
 1. Get perl (ask your system administrator).
-2. Install HaploWinder, i.e., save the file to a place where perl can reach it.
+2. Install [HaploWinder](HaploWinder_v111.pl), i.e., save the file to a place where perl can reach it.
 3. Prepare the input files.
 4. Save the input files to the same place as HaploWinder.
 5. Run HaploWinder from the command line.
@@ -56,7 +56,7 @@ If you run HaploWinder repeatedly, you only need to do steps 1 and 2 once, and i
 
 <br>**In a bit more detail**<br>
 <br>
-Save the program somewhere in a text format but with a name ending '.pl'. Save your input files (see [section 2.1](#2.1)) to the same location, in a text format with file name ending '.txt'. Run the program by (going to that location and) writing onto the command line
+Save [the program](HaploWinder_v111.pl) somewhere in a text format but with a name ending '.pl'. Save your input files (see [section 2.1](#2.1)) to the same location, in a text format with file name ending '.txt'. Run the program by (going to that location and) writing onto the command line
 
     perl haplowinder.pl Settings.txt
 
