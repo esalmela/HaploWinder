@@ -193,7 +193,7 @@ There are two sets of example files. They contain the four input files (\*_setti
 |[example1_data.txt](example1_data.txt)|[example2_data.txt](example2_data.txt)|
 |[example1_codes.txt](example1_codes.txt)|[example2_codes.txt](example2_codes.txt)|
 |[example1_tree.txt](example1_tree.txt)|[example2_tree.txt](example2_tree.txt)|
-|[example1_result.txt](example1_result.txt)|[example2_result.txt](example2_result.txt)|
+|[example1_results.txt](example1_results.txt)|[example2_results.txt](example2_results.txt)|
 |[example1_run_log.txt](example1_run_log.txt)|[example2_run_log.txt](example2_run_log.txt)|
 |[example1_comments.xls](example1_comments.xls)|[example2_comments.xls](example2_comments.xls)|
 |[example1_tree.jpg](example1_tree.jpg)|[example2_tree.jpg](example2_tree.jpg)|
