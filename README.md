@@ -22,9 +22,9 @@ HaploWinder is a perl script that performs uniparental haplogrouping of genotype
 **[Appendix 1.](#app)** Dealing with discrepant marker sets
 <br>
 <br>
-## <a name="1.1"></a>1. General information
+## <a name="1."></a>1. General information
 
-### <a name="1.2"></a>1.1. What is HaploWinder?
+### <a name="1.1"></a>1.1. What is HaploWinder?
 
 HaploWinder is a small program written in perl that performs haplogrouping of samples according to a user-given hierarchical tree. It has been designed and used for assigning haplogroups to samples genotyped with Y-chromosomal and mitochondrial DNA markers.
 Note: HaploWinder does **_not_** perform haplotype inference of unphased diploid genotypes.
