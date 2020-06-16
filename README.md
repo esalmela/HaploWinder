@@ -4,7 +4,7 @@ HaploWinder is a perl script that performs uniparental haplogrouping of genotype
 
 ## README contents
 
- **1. [General information](#general)**<br>
+ **1. [General information](#1.)**<br>
 	1.1. What is HaploWinder?<br>
 	1.2. How to install and run<br>
 	1.3. Technical stuff (Disclaimer, license, citing, email)<br>
@@ -22,7 +22,7 @@ HaploWinder is a perl script that performs uniparental haplogrouping of genotype
 **Appendix 1.** Dealing with discrepant marker sets
 <br>
 <br>
-## <a name="general"></a>1. General information
+## <a name="1."></a>1. General information
 
 ### 1.1. What is HaploWinder?
 
