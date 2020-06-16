@@ -80,11 +80,10 @@ If you find the HaploWinder program useful enough to use it in any published wor
     Population structure in contemporary Sweden – A Y-chromosomal and mitochondrial DNA analysis.
     Annals of Human Genetics 2009, 73: 61-73.
 
-  The paper deals mostly with other stuff but introduces the program briefly.
+  The paper deals mostly with other stuff but introduces the program briefly.<br><br>
 
 
-<br>
-<br>
+
 ## <a name="2."></a>2. Input and output files
 
 ### <a name="2.1"></a>2.1. In general
