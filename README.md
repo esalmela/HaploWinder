@@ -82,9 +82,7 @@ If you find the HaploWinder program useful enough to use it in any published wor
 
   The paper deals mostly with other stuff but introduces the program briefly.
 
-<br>**Email**<br>
-<br>
-Send any questions, comments, etc. regarding HaploWinder to haplowinder AT gmail DOT com. Please include the word "HaploWinder" in your message to bypass the spam protection (case insensitive).
+
 <br>
 <br>
 ## <a name="2."></a>2. Input and output files
