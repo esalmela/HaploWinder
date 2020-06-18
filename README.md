@@ -185,13 +185,13 @@ There are two sets of example files. They contain the four input files (\*_setti
 |Example 1 | Example 2 |
 |-|-|
 |[example1_settings.txt](example_files/example1_settings.txt)|[example2_settings.txt](example_files/example2_settings.txt)|
-|[example1_data.txt](example1_data.txt)|[example2_data.txt](example2_data.txt)|
-|[example1_codes.txt](example1_codes.txt)|[example2_codes.txt](example2_codes.txt)|
-|[example1_tree.txt](example1_tree.txt)|[example2_tree.txt](example2_tree.txt)|
-|[example1_results.txt](example1_results.txt)|[example2_results.txt](example2_results.txt)|
-|[example1_run_log.txt](example1_run_log.txt)|[example2_run_log.txt](example2_run_log.txt)|
-|[example1_comments.xls](example1_comments.xls)|[example2_comments.xls](example2_comments.xls)|
-|[example1_tree.jpg](example1_tree.jpg)|[example2_tree.jpg](example2_tree.jpg)|
+|[example1_data.txt](example_files/example1_data.txt)|[example2_data.txt](example_files/example2_data.txt)|
+|[example1_codes.txt](example_files/example1_codes.txt)|[example2_codes.txt](example_files/example2_codes.txt)|
+|[example1_tree.txt](example_files/example1_tree.txt)|[example2_tree.txt](example_files/example2_tree.txt)|
+|[example1_results.txt](example_files/example1_results.txt)|[example2_results.txt](example_files/example2_results.txt)|
+|[example1_run_log.txt](example_files/example1_run_log.txt)|[example2_run_log.txt](example_files/example2_run_log.txt)|
+|[example1_comments.xls](example_files/example1_comments.xls)|[example2_comments.xls](example_files/example2_comments.xls)|
+|[example1_tree.jpg](example_files/example1_tree.jpg)|[example2_tree.jpg](example_files/example2_tree.jpg)|
 
 <br><br>
 ## <a name="3."></a>3. Other stuff
