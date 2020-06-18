@@ -7,7 +7,7 @@
  **[1. General information](#1.)**<br>
 	[1.1. What is HaploWinder?](#1.1)<br>
 	[1.2. How to install and run](#1.2)<br>
-	[1.3. Technical stuff (Disclaimer, license, how to cite)](#1.3)<br>
+	[1.3. Technical stuff: License, How to cite](#1.3)<br>
 	
 **[2. Input and output files](#2.)**<br>
 	[2.1. In general](#2.1)<br>
@@ -64,13 +64,9 @@ where `haplowinder.pl` is the name you gave to the program file and `Settings.tx
 
 ### <a name="1.3"></a>1.3. Technical stuff
 
-<br>**Disclaimer**<br>
-<br>
-The HaploWinder program is provided without any warranty. I have tried to write it correctly and test it extensively, but take no responsibility for any incorrect results (or any other damage) that it might produce.
-
 <br>**License**<br>
 <br>
-The HaploWinder program is distributed under a simple all-permissive license that allows you to copy and distribute it, with or without modification, in any medium without royalty provided the copyright notice and the notice of the license are preserved.
+The HaploWinder program is distributed under [MIT License](LICENSE.txt).
 
 <br>**How to cite HaploWinder**<br>
 <br>
