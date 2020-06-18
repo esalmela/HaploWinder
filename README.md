@@ -7,7 +7,7 @@
  **[1. General information](#1.)**<br>
 	[1.1. What is HaploWinder?](#1.1)<br>
 	[1.2. How to install and run](#1.2)<br>
-	[1.3. Technical stuff: License, How to cite](#1.3)<br>
+	[1.3. Technical stuff (License, How to cite)](#1.3)<br>
 	
 **[2. Input and output files](#2.)**<br>
 	[2.1. In general](#2.1)<br>
@@ -66,7 +66,7 @@ where `haplowinder.pl` is the name you gave to the program file and `Settings.tx
 
 <br>**License**<br>
 <br>
-The HaploWinder program is distributed under [MIT License](LICENSE.txt).
+The HaploWinder program is distributed under the [MIT License](LICENSE.txt).
 
 <br>**How to cite HaploWinder**<br>
 <br>
