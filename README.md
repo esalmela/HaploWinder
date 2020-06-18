@@ -184,7 +184,7 @@ There are two sets of example files. They contain the four input files (\*_setti
 
 |Example 1 | Example 2 |
 |-|-|
-|[example1_settings.txt](example1_settings.txt)|[example2_settings.txt](example2_settings.txt)|
+|[example1_settings.txt](example_files/example1_settings.txt)|[example2_settings.txt](example_files/example2_settings.txt)|
 |[example1_data.txt](example1_data.txt)|[example2_data.txt](example2_data.txt)|
 |[example1_codes.txt](example1_codes.txt)|[example2_codes.txt](example2_codes.txt)|
 |[example1_tree.txt](example1_tree.txt)|[example2_tree.txt](example2_tree.txt)|
