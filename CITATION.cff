@@ -8,6 +8,7 @@ title: HaploWinder
 version: 1.11
 date-released: 2008-09-01
 license: MIT
+doi: 10.5281/zenodo.3901323
 references:
   - type: article
     authors:
