@@ -2,7 +2,7 @@
 
 [HaploWinder](HaploWinder_v111.pl) is a perl script that performs uniparental haplogrouping of genotyped samples according to a user-given hierarchical tree.
 
-![DOI: 10.5281/zenodo.3901324](https://zenodo.org/badge/doi/10.5281/zenodo.3901324.svg)
+[![DOI: 10.5281/zenodo.3901323](https://zenodo.org/badge/doi/10.5281/zenodo.3901323.svg)](https://doi.org/10.5281/zenodo.3901324)
 
 ## README contents
 
