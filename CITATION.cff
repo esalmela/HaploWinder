@@ -10,6 +10,13 @@ date-released: 2008-09-01
 license: MIT
 doi: 10.5281/zenodo.3901323
 references:
+  - type: software
+    authors:
+      - family-names: Salmela
+        given-names: Elina
+    title: HaploWinder
+    doi: 10.5281/zenodo.3901323
+    url: https://github.com/esalmela/HaploWinder
   - type: article
     authors:
       - family-names: Lappalainen
